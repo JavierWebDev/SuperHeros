@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --colorPrimario: #556BFA;
+    --colorSecundario: #6F76A5;
+    --colorTerciario: #6977CF;
+
+    --grisClaro: #67697A;
+    --grisOscuro: #3F4250;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--colorPrimario);   
+}
+
+h1, h2, h3, h4 {
+    color: var(--grisOscuro);
+}
+
+/* TARJETA */
+
+.cont-titulo_main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    background-color: var(--colorTerciario);
+    padding: 15px;
+}
+
+.cont-tarjetas {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin: 20px;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 300px;
+    background-color: var(--colorSecundario);
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.tarjeta h1 {
+    color: white;
+}
+
+.cont-img_heroe {
+    width: fit-content;
+    height: 200px;
+}
+
+.cont-btn_visualizar {
+    background-color: var(--colorTerciario);
+    padding: 10px 20px;
+    color: var(--grisOscuro);
+    border-radius: 10px;
+    font-size: 1rem;
+
+    transition: all ease 0.2s;
+}
+.cont-btn_visualizar:hover {
+    scale: 1.1;
+    background-color: var(--colorPrimario);
+    color: white;
+    border: solid 2px var(--colorSecundario);
+}

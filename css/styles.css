@@ -45,12 +45,10 @@ h1, h2, h3, h4 {
 }
 
 .tarjeta {
-    width: 290px;
-    height: 300px;
     background-color: var(--colorSecundario);
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .tarjeta h1 {
     color: white;
@@ -58,7 +56,18 @@ h1, h2, h3, h4 {
 
 .cont-img_heroe {
     width: 100%;
-    height: 200px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-position: center;
+    border-radius: 10px;
+
+    transition: all ease 0.2s;
+}
+.cont-img_heroe:hover {
+    border: double 5px var(--colorPrimario);
 }
 
 .cont-btn_visualizar {
@@ -74,5 +83,15 @@ h1, h2, h3, h4 {
     scale: 1.1;
     background-color: var(--colorPrimario);
     color: white;
-    border: solid 2px var(--colorSecundario);
+}
+
+/* VENTANA EMERGERNTE */
+
+.cont-tarjeta_info {
+    background-color: white;
+    width: 30%;
+    height: 30%;
+    display: none;
+    position: fixed;
+    z-index: 3;
 }

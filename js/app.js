@@ -8,7 +8,7 @@ const HeroesMarvel = [
     {
         "id": "5d86371f2343e37870b91ef1",
         "about": "Mollit officia ad excepteur anim proident incididunt eiusmod mollit consectetur id sit velit. Laborum ut magna officia qui laboris eiusmod do culpa. Culpa dolor officia velit cillum culpa deserunt cupidatat cillum ipsum laborum.",
-        "picture": "https://vignette.wikia.nocookie.net/marvelvscapcom/images/5/5d/HulkBruce.png/revision/latest?cb=20170818123736",
+        "picture": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/05/hulk-25-curiosidades-gigante-esmeralda-marvel_0.jpg?tf=1200x1200",
         "name": "Hulk"
     },
     {
@@ -44,7 +44,7 @@ const HeroesMarvel = [
     {
         "id": "5d86371fd55e2e2a30fe1ccb1",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
-        "picture": "https://www.outland.no/media/catalog/product/cache/6f3b753be090e58846a92333dfe1de97/4/8/4897011186276_4.jpg",
+        "picture": "https://www.elfinanciero.com.mx/resizer/4zjPS_QfhwZJXF8CeoHomjD9mb8=/400x267/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/HARUQVLTIBAGTOZWKJG6LK66XE.jpg",
         "name": "Doctor Strange"
     }, {
         "id": "5d86371fd55e2e2a30fe1ccb2",
@@ -61,8 +61,31 @@ const HeroesMarvel = [
     {
         "id": "5d86371fd55e2e2a30fe1cc4",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
-        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
-        "name": "The Wasp"
+        "picture": "https://hips.hearstapps.com/hmg-prod/images/deadpool-1620403945.jpg?crop=0.529xw:1.00xh;0.248xw,0&resize=1200:*",
+        "name": "Deadpool"
+    },
+    {
+        "id": "9a2b1c4d3e5f6g7h8i9j0k1l2m",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://i.ebayimg.com/images/g/DugAAOSwphJfKvSN/s-l1200.webp",
+        "name": "QuickSilver"
+    }, {
+        "id": "n3o4p5q6r7s8t9u0v1w2x3y4z5",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://upload.wikimedia.org/wikipedia/en/5/5d/Wolverine_%28James_%27Logan%27_Howlett%29.png",
+        "name": "Wolverine"
+    },
+    {
+        "id": "6a7b8c9d0e1f2g3h4i5j6k7l8m9n",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://www.orientaserie.it/wp-content/uploads/2022/10/daredevil-poster.jpg",
+        "name": "Daredevil"
+    },
+    {
+        "id": "o0p1q2r3s4t5u6v7w8x9y0z1a2b3c",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://m.media-amazon.com/images/M/MV5BMjI5Mjg1NDcyOV5BMl5BanBnXkFtZTgwMjAxOTQ5MTI@._V1_.jpg",
+        "name": "Iron Fist"
     }
 ]
 
@@ -73,10 +96,20 @@ const contTarjetasMarvel = document.getElementById('ContTarjetasMarvel')
 const cardOriginalDC = document.getElementById('ConHeroCardDC')
 const contTarjetasDC = document.getElementById('ContTarjetasDC')
 
+const BtnAbrirModal = document.getElementById('BotonAbrirModal')
+const BtnCerrarrModal = document.getElementById('BtnCerrarModal')
+const modal = document.getElementById('infoMarvel')
+
 function clonar(original) {
     let clon = original.cloneNode(true);
     return clon
 }
+
+function openModal() {
+    
+}
+
+
 
 HeroesMarvel.forEach(hero => {
     
@@ -87,6 +120,9 @@ HeroesMarvel.forEach(hero => {
 
     contTarjetasMarvel.appendChild(clon)
 
+
+
 })
 
 cardOriginalMarvel.style.display = "none"
+

@@ -2,14 +2,14 @@ let HeroesMarvel = []
 let HeroesDC = []
 
 
-fetch('/SuperHeros/../storage/marvel.json')
+fetch('/../storage/marvel.json')
     .then(response => response.json())
     .then(data => {
         HeroesMarvel = data
         CrearTarjetasMarvel(data)
     })
 
-fetch('/SuperHeros/../storage/dc.json')
+fetch('/../storage/dc.json')
     .then(response => response.json())
     .then(data => {
         HeroesDC = data
@@ -64,11 +64,21 @@ function CrearTarjetasDC(data) {
     })
 }
 
-const Modal = document.querySelector("#ContModal")
+const MostrarMarvel = document.querySelector("#SectionMarvel")
+const MostrarDC = document.querySelector("#SectionDC")
 
-function CloseModal() {
-    Modal.style.display = "none"
+function Mostrar() {
+    MostrarMarvel.style.display = "block"
+    MostrarDC.style.display = "block"
+}
+
+function MostrarMarvelSec() {
+    MostrarMarvel.style.display = "block"
+    MostrarDC.style.display = "none"
 }
 
 
-
+function MostrarDCSec() {
+    MostrarMarvel.style.display = "none"
+    MostrarDC.style.display = "block"
+}

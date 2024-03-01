@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/SuperHeros/css/styles.css">
-    <script src="/SuperHeros/js/app.js" defer></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js" defer></script>
     <title>SuperHeroes</title>
 </head>
 <body>
     <main>
+
+        <header>
+            <div class="TituloGrande">
+                <h1>HEROES</h1>
+            </div>
+
+            <nav>
+                <input type="text" id="q" placeholder="Type to filter..." onkeyup="search()">
+
+                <button onclick="Mostrar()" id="BtnMostrarMarvel" class="cont-btn_visualizar">VER TODOS</button>
+                <button onclick="MostrarMarvelSec()" id="BtnMostrarMarvel" class="cont-btn_visualizar">MARVEL</button>
+                <button onclick="MostrarDCSec()" id="BtnMostrarDC" class="cont-btn_visualizar">DC</button>
+            </nav>
+        </header>
+
         <section id="SectionMarvel">
             <div class="cont-titulo_main">
                 <h1>Marvel</h1>
+
             </div>
             
             <div id="ContTarjetasMarvel" class="cont-tarjetas">

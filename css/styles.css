@@ -25,6 +25,19 @@ h1, h2, h3, h4 {
     color: var(--grisOscuro);
 }
 
+/* NAVEGACION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--colorSecundario);
+    border-radius: 10px;
+}
+
+
 /* TARJETA */
 
 .cont-titulo_main {

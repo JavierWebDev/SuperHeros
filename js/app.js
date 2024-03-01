@@ -90,6 +90,7 @@ searchBar.addEventListener('input', function() {
 
     const marvelHeroes = document.querySelectorAll('#ContTarjetasMarvel .tarjeta');
     const dcHeroes = document.querySelectorAll('#ContTarjetasDC .tarjeta');
+    const titulos = document.querySelectorAll('.titulo_main')
 
     marvelHeroes.forEach(hero => {
         const heroName = hero.querySelector('.cont-titulo').textContent.toLowerCase();

@@ -37,6 +37,15 @@ header {
     border-radius: 10px;
 }
 
+.nav-searchbar {
+    padding: 6px;
+    border-radius: 10px;
+    width: 400px;
+}
+.nav-searchbar:focus {
+    border: solid 4px var(--colorTerciario);
+}
+
 
 /* TARJETA */
 

@@ -82,3 +82,30 @@ function MostrarDCSec() {
     MostrarMarvel.style.display = "none"
     MostrarDC.style.display = "block"
 }
+
+const searchBar = document.getElementById('SearchInput');
+
+searchBar.addEventListener('input', function() {
+    const searchText = searchBar.value.toLowerCase(); 
+
+    const marvelHeroes = document.querySelectorAll('#ContTarjetasMarvel .tarjeta');
+    const dcHeroes = document.querySelectorAll('#ContTarjetasDC .tarjeta');
+
+    marvelHeroes.forEach(hero => {
+        const heroName = hero.querySelector('.cont-titulo').textContent.toLowerCase();
+        if (heroName.includes(searchText)) {
+            hero.style.display = 'block'; 
+        } else {
+            hero.style.display = 'none';
+        }
+    });
+
+    dcHeroes.forEach(hero => {
+        const heroName = hero.querySelector('.cont-titulo').textContent.toLowerCase();
+        if (heroName.includes(searchText)) {
+            hero.style.display = 'block';
+        } else {
+            hero.style.display = 'none';
+        }
+    });
+});

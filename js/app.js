@@ -2,14 +2,14 @@ let HeroesMarvel = []
 let HeroesDC = []
 
 
-fetch('/SuperHeros/storage/marvel.json')
+fetch('/../storage/marvel.json')
     .then(response => response.json())
     .then(data => {
         HeroesMarvel = data
         CrearTarjetasMarvel(data)
     })
 
-fetch('/SuperHeros/storage/dc.json')
+fetch('/../storage/dc.json')
     .then(response => response.json())
     .then(data => {
         HeroesDC = data

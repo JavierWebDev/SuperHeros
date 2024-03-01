@@ -15,29 +15,21 @@
             </div>
             
             <div id="ContTarjetasMarvel" class="cont-tarjetas">
-                <div id="ContHeroCardMarvel" class="tarjeta">
+                <!-- <div id="ContHeroCardMarvel" class="tarjeta">
                     <h1 id="TxtTituloMarvel" class="cont-titulo"></h1>
 
                     <div id="ContImgMarvel" class="cont-img_heroe"></div>
 
-                    <button onclick="" class="cont-btn_visualizar" id="BotonLlevarMarvel">VER</button>
-                </div>
-            </div>
-
-            <div id="infoMarvel" class="cont-tarjeta_info">
-                <button id="BtnCerrarModal" class="cont-btn_visualizar">X</button>
-
-                <h1 id="TituloInfoMarvel"></h1>
-
-                <div class="cont-info_marvel" id="ContenedorInformacionMarvel">
-                    <div id="ImgInfoMarvel" class="cont-img_info"></div>                
-
-                    <p id="IDInfoMarvel"></p>
-                    <p id="textoInfoMarvel" class="info-txt_marvel"></p>
-                </div>
-            </div>
-
+                    <button class="cont-btn_visualizar" id="BotonAbrirModal">VER</button> 
+                </div> -->
+            </div>    
         </section>
+        
+        <dialog class="contenedor-modal" id="ContModal">
+            <button class="cont-btn_visualizar" onclick="CloseModal()">X</button>
+            <div id="InformacionHeroe"></div>
+        </dialog>
+
 
         <section id="SectionDC">
             <div class="cont-titulo_main">
@@ -45,15 +37,16 @@
             </div>
             
             <div id="ContTarjetasDC" class="cont-tarjetas">
-                <div id="ContHeroCardDC" class="tarjeta">
+                <!-- <div id="ContHeroCardDC" class="tarjeta">
                     <h1 id="TxtTituloDC" class="cont-titulo">HERO</h1>
 
                     <div id="ContImgDC" class="cont-img_heroe"></div>
 
                     <button class="cont-btn_visualizar" id="BotonLlevarDC">VER</button>
-                </div>
+                </div> -->
             </div>
         </section>
+
     </main>
 </body>
 </html>

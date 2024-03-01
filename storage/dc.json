@@ -1,0 +1,90 @@
+[
+    {
+    "id": "01",
+    "about": "Ipsum duis incididunt ullamco tempor. Amet incididunt Lorem consequat labore culpa. Pariatur amet veniam reprehenderit sunt laborum excepteur. Labore eu ut ut Lorem labore aliqua quis ex elit nulla in incididunt commodo aliquip. Velit excepteur eiusmod Lorem esse officia. Irure aliquip Lorem fugiat voluptate dolor duis consectetur aliquip pariatur tempor reprehenderit deserunt.",
+    "picture": "https://www.planetebd.com/dynamicImages/album/cover/large/23/24/album-cover-large-23242.jpg",
+    "name": "Batman"
+},
+{
+    "id": "02",
+    "about": "Mollit officia ad excepteur anim proident incididunt eiusmod mollit consectetur id sit velit. Laborum ut magna officia qui laboris eiusmod do culpa. Culpa dolor officia velit cillum culpa deserunt cupidatat cillum ipsum laborum.",
+    "picture": "https://m.media-amazon.com/images/I/91oY-hQ+JvL._AC_UF1000,1000_QL80_.jpg",
+    "name": "Martian Manhunter"
+},
+{
+    "id": "03",
+    "about": "Laboris est duis eiusmod adipisicing cillum ut sit ea Lorem non laboris quis Lorem. Est culpa esse aliqua non labore dolor esse labore nulla mollit. Nostrud amet est quis adipisicing dolor. Labore veniam elit veniam non ad ex consequat excepteur eiusmod. Minim cupidatat velit Lorem culpa quis consequat incididunt qui amet incididunt pariatur ex aliquip aliqua. Magna ex elit in aliquip minim eu ut ut fugiat ullamco deserunt adipisicing cillum.",
+    "picture": "https://static.wikia.nocookie.net/vsdebating/images/d/dc/Justice_Society_Vol_3_10_Textless.jpg",
+    "name": "Superman"
+},
+{
+    "id": "04",
+    "about": "Ipsum tempor sunt Lorem est. Fugiat nisi velit veniam labore et ullamco minim adipisicing do culpa. Cillum voluptate reprehenderit aute consectetur.",
+    "picture": "https://www.latercera.com/resizer/dbbs_DleE-ywOqWDd0zkf5szXfg=/800x0/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/VJKWYTUQXVAVHGUBDTOOTUSBYA.png",
+    "name": "Wonder Woman"
+},
+{
+    "id": "05",
+    "about": "Deserunt voluptate aliquip ex dolor Lorem exercitation aliqua nisi fugiat aliquip sunt non. Eu cillum enim velit exercitation officia proident exercitation ipsum exercitation Lorem nulla do. Minim sint dolor nostrud ipsum laborum. Velit ea ad ad consectetur nisi Lorem laborum officia esse. Do eu incididunt eiusmod voluptate excepteur consequat ipsum ad. Quis veniam exercitation eiusmod amet non non eu aliquip quis ea. Tempor deserunt nulla adipisicing qui fugiat ipsum labore duis et ea consectetur.",
+    "picture": "https://gcomics.online/wp-content/uploads/2023/07/flash-portada-flashpoint-dccomics.jpg",
+    "name": "Flash"
+},
+{
+    "id": "06",
+    "about": "Esse magna Lorem ipsum incididunt sit. Enim eiusmod proident in adipisicing anim excepteur laborum magna aliqua adipisicing ad qui aliqua. Eiusmod enim ullamco laboris adipisicing tempor sint labore. Exercitation cupidatat incididunt nostrud velit nisi aute eu ex pariatur deserunt mollit. Deserunt nisi enim irure elit. Aute amet amet consequat laborum dolor sint anim Lorem id fugiat commodo cupidatat ad. Ipsum quis enim consectetur occaecat laboris esse.",
+    "picture": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1342895794i/7052524.jpg",
+    "name": "Green Lantern"
+},
+{
+    "id": "07",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/05/Cuantas-versiones-de-Robin-han-acompanado-a-Batman-a-lo-largo-de-su-historia-3.jpg?resize=1280%2C2048&quality=80&ssl=1",
+    "name": "Robin"
+},
+{
+    "id": "08",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://www.latercera.com/resizer/Dj732kku9uNHrjK-sHLSvIlv1BM=/arc-anglerfish-arc2-prod-copesa/public/TTUSKCBHNJD7JHXTVRPSH5Y3YY.jpeg",
+    "name": "Red Hood"
+}, {
+    "id": "09",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://content.eccediciones.com/productos/19438/Nightwing_vol1_MejorQueBatman_Cubierta.jpg",
+    "name": "Nightwing"
+},
+{
+    "id": "10",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://content.eccediciones.com/productos/5400/cubierta_lucifer_ed_integral_num1_2Ed.jpg",
+    "name": "Lucifer"
+},
+{
+    "id": "11",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://content.eccediciones.com/productos/20317/UniversoSandman_Hellblazer_Cubierta_.jpg",
+    "name": "John Constantine"
+},
+{
+    "id": "12",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://pm1.aminoapps.com/6080/52b884ef7aaf17b2877f4b29e91b42825b538b0c_hq.jpg",
+    "name": "El Bromas"
+},
+{
+    "id": "13",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://content.eccediciones.com/productos/6989/PORTADA_JPG_WEB_batman_vol_4_YoSoyBane.jpg",
+    "name": "Bane"
+},
+{
+    "id": "14",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://i1.whakoom.com/large/31/32/3daf66fb144c40e69859ce0b5b96670a.jpg",
+    "name": "Reverse Flash"
+},
+{
+    "id": "15",
+    "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+    "picture": "https://m.media-amazon.com/images/M/MV5BM2JlZTdjMjEtZjY3Zi00ZmUwLWI1NTUtODgxZjVkNDlkNWVlXkEyXkFqcGdeQXVyMTI1MTU5MjQ1._V1_.jpg",
+    "name": "The Precense"
+}]

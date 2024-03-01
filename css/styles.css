@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    background-color: var(--colorPrimario);   
+    background-color: var(--colorPrimario);
 }
 
 h1, h2, h3, h4 {
@@ -87,11 +87,3 @@ h1, h2, h3, h4 {
 
 /* VENTANA EMERGERNTE */
 
-.cont-tarjeta_info {
-    background-color: white;
-    width: 30%;
-    height: 30%;
-    display: none;
-    position: fixed;
-    z-index: 3;
-}
